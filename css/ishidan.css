@@ -1,0 +1,113 @@
+/* HEADER */
+
+nav {
+    height: 32px;
+    width: 100%;
+    align-content: center;
+}
+
+.portada-logo {
+    padding: 10px
+}
+
+.nav-menu {
+    margin-left: 40px
+}
+
+.nav-menu li {
+    height: 100%;
+    padding: 0 4px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #eeecec;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: none;
+    float: left;
+    transition-duration: 200ms;
+    margin: auto auto auto 10px
+}
+
+.nav-menu li:hover {
+    cursor: pointer;
+    color: #1e1e1e;
+}
+
+.selected {
+    background-color: #1e1e1e;
+}
+
+.selected:hover {
+    color: white !important;
+}
+
+/* BODY */
+
+/* CONTAINERS */
+
+h2 {
+    font-size: 32px
+}
+
+.main-container {
+    width: 80%;
+    min-height: 50vh;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* Main Block */
+
+.main-block {
+    margin: 10px
+}
+
+.main-block-bienvenido-text {
+    margin-top: 10px;
+    border-top: solid #bfbdbd 2px;
+}
+
+.main-block-bienvenido-text p {
+    margin-top: 10px
+}
+
+.main-block-helper-text {
+    padding: 6px 0;
+}
+
+#main-block-bienvenido {
+    flex-direction: column;
+}
+
+#main-block-helper-text-child {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+/*  Login block */
+
+.login-block {
+    flex-direction: column;
+}
+
+.login-block form {
+    border: #bfbdbd solid 2px;
+    padding: 10px
+}
+
+.login-block form input {
+    border-radius: 1px;
+    height: 30px;
+    margin: 10px auto;
+    width: 80%;
+    background-color: #eeecec;
+    border: #bfbdbd solid 1px;
+}
+
+#login-submit {
+    width: 50%;
+}

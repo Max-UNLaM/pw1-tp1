@@ -1,0 +1,36 @@
+/* FLEX */
+
+.ishi-flex {
+    display: flex
+}
+
+.ishi-flex-center {
+    align-content: center;
+    justify-content: center;
+}
+
+.ishi-flex-direction-col {
+    flex-direction: column;
+}
+
+/* CAJAS */
+
+.ishi-flex-1 {
+    flex: 1
+}
+
+.ishi-flex-2 {
+    flex: 2
+}
+
+.ishi-flex-3 {
+    flex: 3
+}
+
+.ishi-flex-auto {
+    margin: auto;
+}
+
+.ishi-flex-auto-top {
+    margin-top: auto;
+}
