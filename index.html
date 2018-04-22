@@ -24,7 +24,7 @@
 </header>
 <div class="ishi-flex main-container">
     <!-- Bienvenido -->
-    <section class="main-block ishi-flex-1">
+    <section class="ishi-flex ishi-flex-1 main-block" id="main-block">
         <div class="ishi-flex main-block-text" id="main-block-bienvenido">
             <h2 class="naranja-col">Bienvenido</h2>
             <div class="main-block-bienvenido-text">
@@ -46,7 +46,7 @@
     <!-- Login -->
     <section class="main-block ishi-flex ishi-flex-1 login-block">
         <h2 class="naranja-col">Ingresar</h2><span>DELIVERY ONLINE</span>
-        <form class="ishi-flex ishi-flex-direction-col">
+        <form class="ishi-flex ishi-flex-direction-col" id="login-form">
             <label for="login-number">Número de teléfono</label>
             <input type="number" name="login-number" id="login-number" required>
             <label for="login-password">Contraseña</label>
@@ -55,30 +55,49 @@
         </form>
     </section>
 </div>
-<div class="marquesina ishi-flex">
-    <div class="plato">
-        <img src="img/imagen1.jpg">
-        <div class="plato-texto">Maki</div>
+<div class="ishi-flex marquesina">
+    <div class="plato-container ishi-flex-1">
+        <div class="plato">
+            <img src="img/imagen1.jpg">
+            <div class="plato-texto">Maki</div>
+        </div>
     </div>
-    <div class="plato">
-        <img src="img/imagen2.jpg">
-        <div class="plato-texto">Hot Smoked Tempura Maki</div>
+    <div class="plato-container ishi-flex-1">
+        <div class="plato">
+            <img src="img/imagen2.jpg">
+            <div class="plato-texto">Hot Smoked Tempura Maki</div>
+        </div>
     </div>
-    <div class="plato">
-        <img src="img/imagen3.jpg">
-        <div class="plato-texto">Geishas</div>
+    <div class="plato-container ishi-flex-1">
+        <div class="plato">
+            <img src="img/imagen3.jpg">
+            <div class="plato-texto">Geishas</div>
+        </div>
     </div>
-    <div class="plato">
-        <img src="img/imagen4.jpg">
-        <div class="plato-texto">Niguiri de salmón</div>
+    <div class="plato-container ishi-flex-1">
+        <div class="plato">
+            <img src="img/imagen4.jpg">
+            <div class="plato-texto">Niguiri de salmón</div>
+        </div>
     </div>
 </div>
-<footer>
-    <div class="footer-left-arrow">
+<footer class="ishi-flex">
+    <div class="footer-container ishi-flex">
+        <div class="footer-left-arrow">
+            <img src="img/flecha.png" alt="flecha">
+        </div>
+        <div class="footer-text">
+            <p>
+                <span class="naranja-col">Hurlingam:</span>Av. Jauretche 1401 Tel. 4665-3879 y 4665-8749
+            </p>
+            <p>
+                Abrimos de martes a domingos de 19.15 a 23.00 hs.
+            </p>
+        </div>
+        <div class="footer-right-arrow">
+            <img src="img/flecha.png" alt="flecha">
+        </div>
     </div>
-    <div class="footer-text"><p><span class="naranja-col">Hurlingam:</span>Av. Jauretche 1401 Tel. 4665-3879 y 4665-8749
-    </p>
-        <p>Abrimos de martes a domingos de 19.15 a 23.00 hs.</p></div>
 </footer>
 </body>
 </html>

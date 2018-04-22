@@ -7,7 +7,8 @@ nav {
 }
 
 .portada-logo {
-    padding: 10px
+    padding: 10px;
+    border-top: #f86500 4px solid;
 }
 
 .nav-menu {
@@ -73,12 +74,22 @@ h2 {
     margin-top: 10px
 }
 
+.main-block-helper {
+    margin-top: 50px
+}
+
 .main-block-helper-text {
     padding: 6px 0;
 }
 
 #main-block-bienvenido {
     flex-direction: column;
+    align-content: space-between;
+}
+
+#main-block {
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #main-block-helper-text-child {
@@ -108,6 +119,55 @@ h2 {
     border: #bfbdbd solid 1px;
 }
 
+#login-form {
+    background: linear-gradient(#f2f2f2, white);
+}
+
 #login-submit {
     width: 50%;
+}
+
+/* Marquesina */
+
+.marquesina {
+    justify-content: space-around;
+}
+
+
+
+.plato {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plato img {
+    border: 1px solid #1e1e1e;
+    width: 200px;
+    align-self: center
+}
+
+.plato-texto {
+    font-size: 14px;
+    color: #f2f2f2;
+    background-color: #1e1e1e;
+    align-self: center;
+    width: 192px;
+    padding: 5px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 10px;
+    border-top: #f86500 2px solid;
+}
+
+.footer-container {
+    margin: 20px auto;
+}
+
+.footer-right-arrow {
+    transform: scaleX(-1);
 }
